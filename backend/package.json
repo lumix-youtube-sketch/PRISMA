@@ -1,0 +1,26 @@
+{
+  "name": "@foodguard/backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@fastify/cors": "^11.3.1",
+    "@foodguard/shared": "^0.1.0",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.7",
+    "fastify": "^5.12.5",
+    "grammy": "^1.46.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
